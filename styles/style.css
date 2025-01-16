@@ -20,8 +20,8 @@
     margin-top: 32px;
 }
 .shop-btn:hover{
-    background-color: rgb(185, 0, 40);
-    color: gray;
+    background-color: rgb(248, 172, 189);
+    color: rgb(2, 150, 81);
 }
 .header{
     width: 100%;
@@ -107,4 +107,45 @@ margin: 63px 75px 0px;
     color: rgba(39, 39, 39, 0.8)
     
 
+}
+.heading-size{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(39, 39, 39, 1);
+    margin-bottom: 24px;
+}
+.off-container{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+.off{
+    text-align: center;
+    margin: 230px 186px 162px 395px;
+}
+.span{
+    color: rgba(229, 84, 115, 1);
+}
+.single{
+    margin: 100px 429px 100px 0px;
+}
+.insta{
+    text-align: center;
+    margin: 128px 665px 48px;
+}
+.four-flower{
+    gap: 24px;
+    text-align: center;
+   
+    
+}
+.Rectangle-5{
+    margin: 0px 24px 0px;
+}
+.Flower-01{
+    margin: 0px 24px 0px 0px;
 }
