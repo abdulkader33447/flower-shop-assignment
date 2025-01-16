@@ -56,10 +56,55 @@
     margin-bottom: 24px;
 }
 .Flower-container{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin: 0px 240px 122px;
     text-align: center;
-    margin: 48px 240px 128px 240px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(39, 39, 39, 1);
+    text-decoration: underline;
+    /* margin: 48px 240px 128px 240px; */
 }
 .one{
+    width: 464px;
+    height: 534px;
     background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-flower{
+    margin: 106px 78px 0px;
+}
+.two{
+    width: 464px;
+    height: 534px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-flower-2{
+    margin: 117px 47px 51px;
+}
+.three{
+    width: 464px;
+    height: 534px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-flower-3{
+margin: 63px 75px 0px;
+}
+.support-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0px 223px 0px  238px;
+    padding: 86px 175px;
+    font-size: 24px;
+    color: rgba(39, 39, 39, 0.8)
+    
+
 }
